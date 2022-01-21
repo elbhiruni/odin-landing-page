@@ -5,10 +5,12 @@
 ## Design
 
 1. Full Design
-   ![Full Design](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png)
+
+![Full Design](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png)
 
 2. Colors and Fonts
-   ![Colors and Fonts](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png)
+
+![Colors and Fonts](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png)
 
 ## Image Source
 
