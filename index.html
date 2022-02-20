@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Seeds &amp Fruits - Landing Page</title>
 
-    <!-- font -->
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,8 +15,18 @@
     />
     <!-- style -->
     <link rel="stylesheet" href="style.css" />
+
     <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
@@ -31,13 +41,13 @@
         </nav>
       </div>
       <div class="header-hero flex container">
-        <div class="header-hero-title">
+        <div class="header-hero-title flex">
           <h1>This website is awesome</h1>
           <p>
             This website has some subtext that goes here under the main title.
-            It's smaller font and the color is lower contrast
+            It's smaller font and the color is lower contrast.
           </p>
-          <button>Sign up</button>
+          <button type="button" class="btn">Sign up</button>
         </div>
         <div class="header-hero-image">
           <img src="images/pexels-viktor-smith-1393382.jpg" alt="Seeds" />
@@ -46,7 +56,7 @@
     </header>
     <main class="main">
       <section class="main-info container">
-        <h2>Some random information.</h2>
+        <h2>Some random information</h2>
         <div class="main-info-cards flex">
           <figure class="card flex">
             <div class="card-image">
@@ -87,8 +97,8 @@
               truth˺?</q
             ></em
           >
-          (QS Al-An'am, 6:95)
         </p>
+        <p>(QS Al-An'am, 6:95)</p>
       </div>
       <div class="main-action container">
         <div class="main-action-card flex">
@@ -99,13 +109,27 @@
             </p>
           </div>
           <div class="right">
-            <button>Sign up</button>
+            <button type="button" class="btn">Sign up</button>
           </div>
         </div>
       </div>
     </main>
     <footer class="footer">
-      <p>Copyright &copy The Odin Project 2021</p>
+      <p>
+        Lesson by
+        <a
+          href="https://www.theodinproject.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >The Odin Project</a
+        >. Coded by
+        <a
+          href="https://github.com/elbhiruni"
+          target="_blank"
+          rel="noopener noreferrer"
+          >El Bhiruni <i class="fa fa-github" aria-hidden="true"></i
+        ></a>
+      </p>
     </footer>
   </body>
 </html>
